@@ -9,6 +9,10 @@ var RetiredForagerBee = function() {
 RetiredForagerBee.prototype = Object.create(ForagerBee.prototype);
 RetiredForagerBee.prototype.constructor = RetiredForagerBee;
 
+RetiredForagerBee.prototype.fly = function(try) {
+  console.log("WHAT NOW?!?!?!?");
+};
+
 RetiredForagerBee.prototype.forage = function() {
   return "I am too old, let me play cards instead"
 };
