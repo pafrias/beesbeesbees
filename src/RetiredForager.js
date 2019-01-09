@@ -9,8 +9,8 @@ var RetiredForagerBee = function() {
 RetiredForagerBee.prototype = Object.create(ForagerBee.prototype);
 RetiredForagerBee.prototype.constructor = RetiredForagerBee;
 
-RetiredForagerBee.prototype.fly = function(try) {
-  console.log("WHAT NOW?!?!?!?");
+RetiredForagerBee.prototype.fly = function(loc) {
+  ////
 };
 
 RetiredForagerBee.prototype.forage = function() {
